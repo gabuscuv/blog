@@ -1,10 +1,8 @@
 ---
 layout: page
 title: CheatSheet
-permalink: /Cheatsheet/
+permalink: /misc/cheatsheet/
 ---
-
-# Cheatsheet
 
 ## VR
 
@@ -13,9 +11,12 @@ permalink: /Cheatsheet/
 - Unity-based Games:
   - `%command% -vrmode openvr`
   - `%command% -vrmode oculus`
+    - Require "OVRPlugin.dll" support
 
-### My Typical collage 
-  - `montage * -label '%c' -tile 3x -resize 1920x1080 -frame 2 -geometry +0+0 ./finish/result.jpg`
+### My Typical collage
+
+- `montage * -label '%c' -tile 3x -resize 1920x1080 -frame 2 -geometry +0+0 ./finish/result.jpg`
+
 ### Use SteamVR Controllers in No-Vive Ecosystem
 
 TL;DR: It's will cost you about ~675.98€
@@ -44,6 +45,6 @@ You will get required installed these Software:
 
 There are some VideoTutorial which can guide you.
 
-<https://www.youtube.com/watch?v=r_SepHooREo>
+- [Do The Valve Index Controllers Work With The Oculus Rift?](https://www.youtube.com/watch?v=5QKy3nxqLI8)
 
-<https://www.youtube.com/watch?v=5QKy3nxqLI8>
+- [HOW TO USE THE HP REVERB G2 WITH INDEX CONTROLLERS](https://www.youtube.com/watch?v=r_SepHooREo)

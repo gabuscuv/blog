@@ -1,5 +1,8 @@
-
-# Most Important Software
+---
+layout: page
+title: Software Roecmmendations
+permalink: /misc/third-software/
+---
 
 - Browsers:
   - Firefox (General use)
@@ -27,21 +30,26 @@
         - NewPipe
     - Misc:
       - VideoStream Mobile // Cast Videos From PC To Chromecast.
+
   - [Kodi](https://kodi.tv/download) (Mostly Android TV)
     - [SickRage](https://www.sickrage.ca/) (Kodi Scrapper Metadata)
+
   - Podcast:
     - [gPodder](https://gpodder.github.io/)
     - iTunes
     - Android: [AntennaPod](https://antennapod.org/)
+
   - Image Viewer:
     - Windows: Infraview
     - GNU/Linux: Feh
     - Plataforms:
       - Pixiv
       - Android: Nori (Booru like)
+
   - PDF Viwer:
     - Windows: SumatraPDF
     - GNU/Linux: qpdfview
+
   - Music Player:
     - Windows: foobar2000
     - Linux: mpd
@@ -70,16 +78,18 @@
       - Unity (For now, Mostly VRoid stuff)
     - Everywhere Libs:
       - ImGui
-  - Version Control: 
+
+  - Version Control:
     - git
       - git-lfs
+  
   - Utils:
     - Code Coverge: OpenClover + Report Generator
     - REST API Testing:
       - Insomnia
       - SOAPUI
     - Sniffer/Debugging REST/SOAP Communication : Fiddler 4
-    - Hexadecimal Editor for Reverse Engennering: 
+    - Hexadecimal Editor for Reverse Engennering:
       - Windows: HxD
       - Linux: wxhexeditor
     - Sniffer/Network Debugging: Wireshark
@@ -100,7 +110,6 @@
     - Streaming Chat: ReStream Chat
   - 3D Stuff: Blender
   - Audio Recording:
-    - Logic Pro X
     - GrangeBand for iOS
     - Utils:
       - GuitarTuna
@@ -144,7 +153,6 @@
   - LaTeX:
     - Windows: MixTex
     - GNU/Linux: texlive
-
 - Gaming
   - Emulators:
     - RetroArch
@@ -170,7 +178,6 @@
   - Instagram
   - Linkedin
   - Tusky // GNU/Social Client
-
 
 - Privacy + Anti Geo-Blocking
   - TunnelBear
