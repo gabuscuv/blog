@@ -17,6 +17,9 @@ permalink: /misc/cheatsheet/
 
 - `montage * -label '%c' -tile 3x -resize 1920x1080 -frame 2 -geometry +0+0 ./finish/result.jpg`
 
+### Fixing setcap for SteamVR Linux
+`sudo setcap CAP_SYS_NICE+ep ~/.local/share/Steam/steamapps/common/SteamVR/bin/linux64/vrcompositor-launcher`
+
 ### Use SteamVR Controllers in No-Vive Ecosystem
 
 TL;DR: It's will cost you about ~675.98€
