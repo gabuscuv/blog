@@ -8,6 +8,9 @@ permalink: /misc/cheatsheet/
 
 ### Force use to Use X VR API
 
+- Unreal Engine-based Games:
+  - %command% -hmd=SteamVR
+
 - Unity-based Games:
   - `%command% -vrmode openvr`
   - `%command% -vrmode oculus`
