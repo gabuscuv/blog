@@ -6,8 +6,8 @@ permalink: /about/mylanguages/
 | Language Programming | Activity Years | Public Projects |
 |-------|--------|--------|
 | C#/ASP.NET | 2016 - 2020 | Usagi Engine (TFG) |
-| C++ | 2017 - 2020 | Unreal Engine Projects (+ Blueprint) |  
-| golang | 2018 | Cancelled Tracker Watcher with Twitter (OAuth) Integration  |
+| C++ | 2017 - 2021 | Unreal Engine Projects (+ Blueprint) |  
+| golang | 2018,2021 | [ArrowDialogueParser](https://github.com/gabuscuv/ArrowDialogueParser), Cancelled Tracker Watcher with Twitter (OAuth) Integration  |
 | node.js | 2017-2018 |  |
 | ECMA6+ | 2017 - 2020 | |
 | Java | 2015 - 2017 | Mostly Studies Projects and a Metadata Scrapper Library |

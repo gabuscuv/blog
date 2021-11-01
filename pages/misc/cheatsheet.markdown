@@ -8,19 +8,36 @@ permalink: /misc/cheatsheet/
 
 ### Force use to Use X VR API
 
-- Unreal Engine-based Games:
-  - %command% -hmd=SteamVR
+- OpenXR
+  - Override "XR_RUNTIME_JSON" Environment variable
+  - Examples
+    - Windows+Oculus: `XR_RUNTIME_JSON=%OCULUSHOME%\Support\oculus-runtime\oculus_openxr_64.json`
+    - Windows+SteamVR: `XR_RUNTIME_JSON=X:\Program Files (x86)\Steam\steamapps\common\SteamVR\steamxr_win64.json`
+    - GNU/Linux+monado: `XR_RUNTIME_JSON=/usr/share/openxr/1/openxr_monado.json`
+    - GNU/Linux+SteamVR: `XR_RUNTIME_JSON=~/.steam/steam/steamapps/common/SteamVR/steamxr_linux64.json`
+- "Legacy" APIs (OVR/OpenVR)
+  - Unreal Engine-based Games:
+    - `%command% -hmd=SteamVR`
+    - `%command% -hmd=OculusHMD`
 
-- Unity-based Games:
-  - `%command% -vrmode openvr`
-  - `%command% -vrmode oculus`
-    - Require "OVRPlugin.dll" support
+  - Unity-based Games:
+    - `%command% -vrmode openvr`
+    - `%command% -vrmode oculus`
+      - Require "OVRPlugin.dll" support
+  
+### Nice Wrappers
+
+- [LibOVRWrapper (Oculus SDK<=0.8)](https://github.com/kalavaras/LibOVRWrapper)
+- [Hydra-OpenVR](https://github.com/CrossVR/Hydra-OpenVR)
+  
+## Misc Stuff
 
 ### My Typical collage
 
 - `montage * -label '%c' -tile 3x -resize 1920x1080 -frame 2 -geometry +0+0 ./finish/result.jpg`
 
 ### Fixing setcap for SteamVR Linux
+
 `sudo setcap CAP_SYS_NICE+ep ~/.local/share/Steam/steamapps/common/SteamVR/bin/linux64/vrcompositor-launcher`
 
 ### Use SteamVR Controllers in No-Vive Ecosystem
