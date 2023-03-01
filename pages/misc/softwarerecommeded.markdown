@@ -44,8 +44,7 @@ permalink: /misc/third-software/
     - GNU/Linux: Feh
     - Plataforms:
       - Pixiv
-      - Android: Nori (Booru like)
-
+  
   - PDF Viwer:
     - Windows: SumatraPDF
     - GNU/Linux: qpdfview
@@ -124,7 +123,7 @@ permalink: /misc/third-software/
 
 - Utils:
   - Notepad++
-  - Time Magnement:
+  - Time Management:
     - Toggle
     - Trello
     - Notion
@@ -153,24 +152,6 @@ permalink: /misc/third-software/
   - LaTeX:
     - Windows: MixTex
     - GNU/Linux: texlive
-- Gaming
-  - Emulators:
-    - RetroArch
-      - SNES: bsnes
-      - PSX: mednafen-psx
-      - Saturn: mednafen-saturn
-      - DreamCast: Flycast/Reicast
-      - GBA: mGBA
-    - PSP: PPSSPP
-    - NDS:
-      - Any OS: DeSeMue
-      - Android: DraStic
-  - Local Streaming:
-    - Moonlight
-    - Steam Link
-
-  - Utils:
-    - Steam Library Sorter: Depressurizer
 
 - SNS
   - Twitter
@@ -193,15 +174,13 @@ permalink: /misc/third-software/
   - Google Translator
 
 - Stores
-  - Humble Bundle App
   - F-Droid App
   - PlayStore
 
 - Android misc
   - GCam Mod + OnePlus Cam
-  - Tracking Delivery: Deliveries
-  - Custom Wallpaper: KLWP
+  - Custom Wallpaper: Wallpaper Engine
   - RSS Reader: Inoreader
   - Games General & Gaming Services Related
     - Playstation + Steam // General Plataforms
-    - Nintendo Switch Online + Xbox GamePass // Paid Plataforms
+  - Xbox GamePass // Paid Plataforms
